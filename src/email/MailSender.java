@@ -5,7 +5,6 @@ import javax.mail.internet.AddressException;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 7:37 PM
  */
 public class MailSender {
 

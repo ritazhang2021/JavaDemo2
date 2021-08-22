@@ -280,7 +280,6 @@ public class StringTestAndTransition {
         System.out.println(s1 == s3);//false
         System.out.println(s1 == s4);//false
         System.out.println(s3 == s4);//false
-
         System.out.println("***********************");
 
     }

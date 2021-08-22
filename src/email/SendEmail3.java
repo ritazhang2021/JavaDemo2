@@ -10,7 +10,6 @@ import java.util.Properties;
 
 /**
  * @Author: Rita
- * @Date:5/25/2021 11:12 PM
  */
 public class SendEmail3 {
     public static void main(String[] args) throws MessagingException {

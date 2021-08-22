@@ -249,7 +249,7 @@ public void test5(){
     }
 //按value排序
     public static void sortByValue() {
-        Map<String,String> map = new TreeMap<String,String>();
+        Map<String, String> map = new TreeMap<String, String>();
         map.put("a", "dddd");
         map.put("d", "aaaa");
         map.put("b", "cccc");
@@ -257,7 +257,7 @@ public void test5(){
 
         List<Map.Entry<String, String>> list = new ArrayList<Map.Entry<String, String>>(map.entrySet());
 
-        Collections.sort(list,new Comparator<Map.Entry<String,String>>() {
+        Collections.sort(list, new Comparator<Map.Entry<String, String>>() {
             //升序排序
             @Override
             public int compare(Map.Entry<String, String> o1, Map.Entry<String, String> o2) {
@@ -265,7 +265,8 @@ public void test5(){
             }
         });
 
-        for (Map.Entry<String, String> e: list) {
-            System.out.println(e.getKey()+":"+e.getValue());
+        for (Map.Entry<String, String> e : list) {
+            System.out.println(e.getKey() + ":" + e.getValue());
         }
+    }
 }

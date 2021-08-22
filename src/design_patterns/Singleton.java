@@ -6,8 +6,8 @@ package design_patterns;
 
 //还可以用enum
 final class Singleton{
-    //private final static Singleton instance = null;
-    private volatile static Singleton instance = null;
+    //private static Singleton instance;
+    private volatile static Singleton instance;
     private Singleton() { }
 
     public static Singleton getInstance() {
@@ -20,5 +20,9 @@ final class Singleton{
         }
         return instance;
     }
+}
+//不能通过 reflection attack 来调用私有构造方法。
+enum SingletonEnum {
+    INSTANCE;
 }
 

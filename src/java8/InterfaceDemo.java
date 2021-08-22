@@ -8,6 +8,7 @@ public class InterfaceDemo {
         InterfaceDemo interfaceAPI = new InterfaceDemo();
         Man man = new InterfaceDemo().new Man();
         man.help();
+
     }
     interface Filial {// 孝顺的
         default void help() {

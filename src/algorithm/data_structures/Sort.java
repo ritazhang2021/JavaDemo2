@@ -8,6 +8,7 @@ import java.util.Arrays;
  * @Author: Rita
  */
 public class Sort {
+    public static int[] arr = new int[]{33, 22, 84, -33, 0, 55, 45, -28, 19, 89, 10, 63, 77, 99};
     @Test
     public void bubbleSort() {
         int[] arr = new int[]{33, 22, 84, -33, 0, 55, 45, -28, 19, 89, 10, 63, 77, 99};
@@ -24,6 +25,7 @@ public class Sort {
     }
 
     public static void main(String[] args) {
+        Arrays.sort(arr);
     }
 
     @Test

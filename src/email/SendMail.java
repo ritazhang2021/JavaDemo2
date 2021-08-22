@@ -9,7 +9,7 @@ import java.util.Properties;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 8:13 PM
+
  */
 public class SendMail {
 

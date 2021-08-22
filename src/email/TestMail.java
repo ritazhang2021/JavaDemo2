@@ -10,7 +10,6 @@ import java.util.Properties;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 8:12 PM
  */
 public class TestMail {
     public static void main(String[] args) throws Exception {

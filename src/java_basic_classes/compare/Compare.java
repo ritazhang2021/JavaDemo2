@@ -4,6 +4,7 @@ import org.junit.Test;
 import project.entity.Product;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author: Rita
@@ -87,6 +88,7 @@ public class Compare {
         arr[4] = new Product("huaweiMouse",224);
         arr[5] = new Product("microsoftMouse",43);
 
+
         Arrays.sort(arr, new java.util.Comparator() {
             //指明商品比较大小的方式:按照产品名称从低到高排序,再按照价格从高到低排序
             @Override
@@ -105,6 +107,8 @@ public class Compare {
         });
 
         System.out.println(Arrays.toString(arr));
+
+        List<Product> products = Arrays.asList(arr);
     }
 
 }

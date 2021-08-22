@@ -11,7 +11,7 @@ import java.util.Properties;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 9:55 AM
+
  * enable POP, IMAP
  * Less secure app access
  * https://myaccount.google.com/u/1/lesssecureapps?pli=1&rapt=AEjHL4P1ZD8-jSAEmM3FGtwzSZftZ-FJQSt8B3RRWEXb_voVml3bJr5QU4jX7rBtPM_QESMaGaPH_IZC4-z9Sd66kjU0grpubQ

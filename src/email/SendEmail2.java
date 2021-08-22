@@ -7,7 +7,6 @@ import java.util.Properties;
 
 /**
  * @Author: Rita
- * @Date:5/25/2021 10:55 PM
  */
 public class SendEmail2 {
     public static void main(String [] args)

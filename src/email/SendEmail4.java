@@ -2,7 +2,7 @@ package email;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 9:23 AM
+
  */
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

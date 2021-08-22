@@ -52,7 +52,7 @@ public class ListAPI {
     }
 
     private void updateList(List list) {
-//        list.remove(2);
+//        list.remove(2); remove index
         list.remove(new Integer(2));
     }
 

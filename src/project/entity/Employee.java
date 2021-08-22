@@ -115,15 +115,14 @@ public class Employee implements Comparable{
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-
         Employee employee = (Employee) o;
-
         if (id.equals(employee.id)) {
             return false;
         }
         if (age != employee.age) {
             return false;
         }
+
         if (Double.compare(employee.salary, salary) != 0) {
             return false;
         }

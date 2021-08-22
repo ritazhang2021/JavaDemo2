@@ -2,7 +2,6 @@ package design_patterns;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 9:18 PM
  */
 abstract class AbstractFactory {
     abstract Printer getPrinter(String type);

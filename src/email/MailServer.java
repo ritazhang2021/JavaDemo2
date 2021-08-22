@@ -9,7 +9,6 @@ import java.util.Properties;
 
 /**
  * @Author: Rita
- * @Date:5/26/2021 7:35 PM
  */
 public class MailServer {
     /**
